@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body class="page-body">
-    <header class="page-header">
+  <body class="page-body js-page-body">
+    <header class="page-header js-page-header">
       <div class="page-body__container  page-header__container">
         <img class="page-header__logo" src="img/logo.png" width="42" height="42" alt="Trip logo">
 
-        <div class="trip-main">
+        <div class="trip-main js-trip-main-header">
           <!-- Маршрут и стоимость -->
 
-          <div class="trip-main__trip-controls  trip-controls">
+          <div class="trip-main__trip-controls js-trip-controls  trip-controls">
             <h2 class="visually-hidden">Switch trip view</h2>
             <!-- Меню -->
 
@@ -30,9 +30,9 @@
         </div>
       </div>
     </header>
-    <main class="page-body__page-main  page-main">
+    <main class="page-body__page-main js-page-main page-main">
       <div class="page-body__container">
-          <section class="trip-events">
+          <section class="trip-events js-trip-events">
             <h2 class="visually-hidden">Trip events</h2>
 
             <!-- Сортировка -->
@@ -41,5 +41,6 @@
           </section>
       </div>
     </main>
+    <script src="../src/main.js"></script>
   </body>
 </html>
